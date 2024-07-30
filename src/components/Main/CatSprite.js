@@ -1,14 +1,16 @@
 import React from "react";
 
-export default function CatSprite() {
+export default function CatSprite({ style }) {
   return (
-    <svg
+    <div>
+      <svg
       xmlns="http://www.w3.org/2000/svg"
       width="95.17898101806641"
       height="100.04156036376953"
       viewBox="0.3210171699523926 0.3000000357627869 95.17898101806641 100.04156036376953"
       version="1.1"
       xmlSpace="preserve"
+      style={style}
     >
       <g>
         <g id="Page-1" stroke="none" fillRule="evenodd">
@@ -180,5 +182,7 @@ export default function CatSprite() {
         </g>
       </g>
     </svg>
+    <div>Hello</div>
+    </div>
   );
 }
